@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahtzee Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Yahtzee Dice Game</h1>
+    
+    <div>
+        <div id="diceContainer">
+            <div class="dice" id="die1"><img src="dice-1.png" alt="Die 1"></div>
+            <div class="dice" id="die2"><img src="dice-2.png" alt="Die 2"></div>
+            <div class="dice" id="die3"><img src="dice-3.png" alt="Die 3"></div>
+            <div class="dice" id="die4"><img src="dice-4.png" alt="Die 4"></div>
+            <div class="dice" id="die5"><img src="dice-5.png" alt="Die 5"></div>
+            <div class="dice" id="die6"><img src="dice-6.png" alt="Die 6"></div> <!-- Extra dobbelsteen -->
+        </div>
+    </div>
+
+    <button id="rollDice" class="button">Roll (3 left)</button>
+
+    <h2>Scoreboard</h2>
+    <table id="scoreboard">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody id="scoreTable">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
